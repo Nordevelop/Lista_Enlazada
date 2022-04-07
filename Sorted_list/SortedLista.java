@@ -2,28 +2,26 @@ package misClases;
 import java.util.*;
 
 public class SortedLista {
-	private Enlace primero; // ref to primero item on list
+	private Enlace primero; // ref tal primer item  en la lista
 
 	public SortedLista() // constructor
 	{ primero = null; }
-	// -------------------------------------------------------------
-	public boolean isEmpty(){ // verdadero si no hay enlace
+	
+	public boolean isEmpty(){ // verdadero si enlace == empty
 	 return (primero==null); 
 	 }
 	// -------------------------------------------------------------
-	public void agregar(long key) //agregar en orden
-	{
+	public void agregar(long key){ //agregar en orden
+	
 	Enlace newLink = new Enlace(key); // 
 	Enlace previous = null; 
-	Enlace current = primero;
-	// until end of list,
-	while(current != null && key > current.Data1)
-	{ // or key > current,
+	Enlace current = primero; 
+	while(current != null && key > current.Data1){ // o key > current,
 	previous = current;
-	current = current.siguiente; // go to next item
+	current = current.siguiente; // ir al siguiente elemento
 	}
-	if(previous==null) // at beginning of list
-	primero = newLink; // primero --> newLink
+	if(previous==null) // al comenzar de la lista
+		primero = newLink; // primero --> newLink
 	else // not at beginning
 	previous.siguiente = newLink; // old prev --> newLink
 	newLink.siguiente = current; // newLink --> old current
