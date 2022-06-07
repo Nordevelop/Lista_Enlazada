@@ -22,15 +22,15 @@ public class SortedLista {
 	}
 	if(previous==null) 
 		primero = newLink;
-	else // not at beginning
+	else 
 	previous.siguiente = newLink; 
 	newLink.siguiente = current; 
-	} // end insert()
+	} // fin agregar()
 	
 	public Enlace borrar(){ //retorna variable temporal y borra enlace del primer punntero
-	 // (assumes non-empty list)
-	Enlace temp = primero; // save primero
-	primero = primero.siguiente; // delete primero
+	 // (presume que la lista no esta vacia lista)
+	Enlace temp = primero; // guardar primero
+	primero = primero.siguiente; // borrar primero
 	return temp; // return value
 	}
 	
