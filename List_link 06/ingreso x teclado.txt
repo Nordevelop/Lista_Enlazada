@@ -1,0 +1,20 @@
+Nombre, Apellido y legajo de los Alumnos 
+Ingrese listado de 10 alumnos 
+ingrese Nombre del alumno : 
+raul
+ingrese Apellido del alumno: 
+tevez
+Ingrese Legajo del Alumno: 
+1254
+ingrese Nombre del alumno : 
+federico
+ingrese Apellido del alumno: 
+buchon
+Ingrese Legajo del Alumno: 
+1256
+ingrese Nombre del alumno : 
+carolina
+ingrese Apellido del alumno: 
+galvez
+Ingrese Legajo del Alumno: 
+1258
