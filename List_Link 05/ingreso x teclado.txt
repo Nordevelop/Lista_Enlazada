@@ -1,0 +1,36 @@
+FRASE DE NIKLAUS WIRTH 
+Ingrese 16 mensajes a mostrar: 
+ingrese un mensaje : 
+REAL
+ingrese un mensaje : 
+MAQUINA
+ingrese un mensaje : 
+LA
+ingrese un mensaje : 
+POR
+ingrese un mensaje : 
+UTILIZADOS
+ingrese un mensaje : 
+OBJETOS
+ingrese un mensaje : 
+LOS
+ingrese un mensaje : 
+DE
+ingrese un mensaje : 
+QUE
+ingrese un mensaje : 
+ABSTRACTO
+ingrese un mensaje : 
+COMPUTADOR
+ingrese un mensaje : 
+UN
+ingrese un mensaje : 
+REPRESENTA
+ingrese un mensaje : 
+PROGRAMACIÓN
+ingrese un mensaje : 
+DE
+ingrese un mensaje : 
+LENGUAJE
+ingrese un mensaje : 
+UN
