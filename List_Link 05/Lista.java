@@ -9,7 +9,7 @@ public class Lista {
     String mensaje;
     Nodo comienzo;
 	public Lista() { //constructor
-		comienzo =null;
+	comienzo =null;
 	}
     /*
     *Metodo #5s
