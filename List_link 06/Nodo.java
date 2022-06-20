@@ -15,6 +15,9 @@ public class Nodo {
    int legajo;
     anterior = siguiente = null;
     }
+	/*
+	*Metodos Getters & Setters
+	*/
     public int getlegajo() {
     	return legajo;
     }
