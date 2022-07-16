@@ -15,7 +15,10 @@ public class Main {
 	         for (int i=0;i<3;i++)
 	             objetoLista.agregarDato();
 	         System.out.print("Listado de alumnos: ");
-	         objetoLista.VisualizarDatos();    
+	         objetoLista.VisualizarDatos(); 
+		 objetoLista.EliminarDatos();
+		 System.out.print("Listado de alumnos: ");
+		
 	       
 	}
 
